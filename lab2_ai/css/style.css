@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#search {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#task_list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+#task_list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+#task_list li:hover {
+  background-color: navajowhite;
+}
+
+#task_list li span {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+button{
+  margin-left:5px;
+}
+
+#task_list li button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#task_list li button:hover {
+  background-color: darkred;
+}
+
+#add_task_form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+#new_task,
+#deadline{
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#add_task_btn {
+  background-color:blueviolet;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#add_task_btn:hover {
+  background-color: mediumvioletred;
+}
+
+@media (max-width: 600px) {
+  #add_task_form {
+    flex-direction: column;
+  }
+  #new_task,
+  #deadline {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  #add_task_form button {
+    width: 100%;
+    margin-top: 5px;
+  }
+}
