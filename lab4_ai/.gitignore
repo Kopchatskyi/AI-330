@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+
+# System plików
+.DS_Store
+Thumbs.db
+
+# Logi
+*.log
+
+# Kompilowane pliki
+/dist
+/build
+*.tmp
+*.bak
+
+# Pliki konfiguracji IDE
+.vscode/
+.idea/
+
+# Niezbędne pliki lokalne
+.env
+
+# Niezbędne pliki tymczasowe
+*.swp
+*.swo
+
+# Pliki kompilacji/wyjściowe
+*.class
+*.exe
+*.out
+
+# Pliki generowane przez przeglądarki
+*.map

@@ -7,31 +7,54 @@ body {
 }
 
 header {
+<<<<<<< Updated upstream
   background-color: #333; /* ciemne tło */
   color: #fff; /* biały tekst */
   padding: 20px 0;
   text-align: center;
   border-bottom: 5px solid #007bff; /* niebieski pasek na dole nagłówka */
+=======
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 5px solid #007bff;
+>>>>>>> Stashed changes
 }
 
 h1 {
   font-size: 2.5em;
   margin: 0;
+<<<<<<< Updated upstream
   text-transform: uppercase; /* wielkie litery */
+=======
+  text-transform: uppercase;
+>>>>>>> Stashed changes
 }
 
 h2 {
   font-size: 1.5em;
   margin: 10px 0;
+<<<<<<< Updated upstream
   font-style: italic; /* kursywa */
+=======
+  font-style: italic;
+>>>>>>> Stashed changes
 }
 
 h3 {
   font-size: 2em;
+<<<<<<< Updated upstream
   color: #007bff; /* niebieski kolor */
   padding: 15px;
   background-color: rgba(0, 123, 255, 0.1); /* niebieskie tło */
   border: 2px solid #007bff; /* niebieska ramka */
+=======
+  color: #007bff;
+  padding: 15px;
+  background-color: rgba(0, 123, 255, 0.1);
+  border: 2px solid #007bff;
+>>>>>>> Stashed changes
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -41,12 +64,20 @@ p {
   font-size: 1.2em;
   color: #333;
   margin: 15px 0;
+<<<<<<< Updated upstream
   padding: 0 20px; /* padding z boków */
+=======
+  padding: 0 20px;
+>>>>>>> Stashed changes
 }
 
 ul {
   list-style-type: square;
+<<<<<<< Updated upstream
   padding-left: 40px; /* więcej miejsca dla listy */
+=======
+  padding-left: 40px;
+>>>>>>> Stashed changes
 }
 
 .gallery {
@@ -59,6 +90,7 @@ ul {
 .gallery img {
   width: 30%;
   margin: 10px;
+<<<<<<< Updated upstream
   border-radius: 5px; /* zaokrąglone rogi */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* cień dla obrazków */
   transition: transform 0.3s; /* efekt przejścia */
@@ -66,6 +98,15 @@ ul {
 
 .gallery img:hover {
   transform: scale(1.05); /* powiększenie obrazków po najechaniu */
+=======
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+>>>>>>> Stashed changes
 }
 
 footer {
@@ -77,8 +118,13 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
+<<<<<<< Updated upstream
   font-size: 0.9em; /* mniejszy tekst */
   border-top: 5px solid #007bff; /* niebieski pasek na górze stopki */
+=======
+  font-size: 0.9em;
+  border-top: 5px solid #007bff;
+>>>>>>> Stashed changes
 }
 footer p {
   z-index: 2;
